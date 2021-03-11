@@ -31,11 +31,11 @@
 .principal{
     background: #4a3933;
     padding: 30px;
+    font-family: "Monteserrat", sans-serif;
 }
 
 .titulo-principal{
     color: #ffffff;
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 4rem;
     border: 3px solid #ffffff;
@@ -52,6 +52,7 @@
 }
 
 p {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #ffffff;
     font-size: 20px;
