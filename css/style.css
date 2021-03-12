@@ -9,7 +9,7 @@
     justify-content: center;
     height: 20vh;
     width: 100vw;
-    background: linear-gradient(45deg, #4a3933, #f0a500, #e45826, #e6d5b8);
+    background: linear-gradient(45deg, #290001, #87431d, #c87941, #dbcbbd);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
@@ -69,6 +69,7 @@ em strong{
 .beneficios{
     background: #ffffff;
     padding: 20px;
+    font-family: "Monteserrat", sans-serif;
 }
 
 
