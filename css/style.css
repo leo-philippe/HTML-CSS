@@ -1,19 +1,9 @@
-#banner{
-    width: 100%;
-    height: 550px;
-}
-
-.gradiente{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    width: 100vw;
-    background: linear-gradient(45deg, #290001, #87431d, #c87941, #dbcbbd);
+header{
+    background: linear-gradient(90deg, #6e7c7c, #92967d, #c8c6a7);
+    padding: 20px 0;
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
 }
-
 @keyframes colors{
     0% {
         background-position: 0% 50%;
@@ -28,62 +18,125 @@
     }
 }
 
-.principal{
-    background: #4a3933;
-    padding: 30px;
-    font-family: "Monteserrat", sans-serif;
+.caixa{
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
 }
 
-.titulo-principal{
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 4rem;
-    border: 3px solid #ffffff;
-    padding: 2rem 4rem;
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado {
-    text-align: center;
-    font-size: 3rem;
-    color: #ffffff;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-p {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-}
-
-#missao {
-    font-size: 30px;
-}
-
-em strong{
-    color: #f0a500;
-}
-
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
-    font-family: "Monteserrat", sans-serif;
-}
-
-
-.itens{
-    font-style: italic;
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
     font-size: 25px;
-}
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    text-decoration: none;
 }
 
-.imagembeneficios{
-    width: 50%;
+nav a:hover{
+    color: #fff9b0;
+    text-decoration: underline solid ;
 }
+
+.produtos{
+    width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    font-family: "Monteserrat",sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 2px solid;
+    border-radius: 10px;
+}
+
+.produtos li:hover{
+    color: #f0a500;
+    border-color: #f0a500;
+}
+
+.produtos li:active{
+    border-color: #6b011f;
+    color: #6b011f;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+    font-family: "Monteserrat", sans-serif;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("../imagens/produto/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+ main {
+     width: 940px;
+     margin: 0 auto;
+ }
+ 
+ form{
+    margin: 40px 0;
+    font-family: "Monteserrat", sans-serif;
+ }
+
+ form label, form p{
+     display: block;
+     font-size: 20px;
+     margin: 10px;
+ }
+
+ .input-padrao{
+     display: block;
+     margin: 20px;
+     padding: 8px 15px;
+     width: 50%;
+     border-radius: 5px;
+ }
+
+ .envio{
+     border-radius: 10px;
+ }
+
+ .checkbox{
+     margin: 25px 0;
+ }
